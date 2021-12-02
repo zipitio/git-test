@@ -6,13 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
-    "lite": "lite-server"
+    "lite": "lite server"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/zipitio/git-test.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zipitio/git-test/issues"
+  },
+  "homepage": "https://github.com/zipitio/git-test#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
   }
